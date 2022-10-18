@@ -1,0 +1,172 @@
+.shapka{
+
+    background-color: aqua;
+}
+
+
+
+
+
+
+
+ul{
+    display: flex;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #ddd;
+  }
+  
+  li a.active {
+    color: white;
+    background-color: #04AA6D;
+  }
+
+  h1{
+    width: 500px;
+    height: 20px;
+    font-size: large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: royalblue;
+    letter-spacing: 1px;
+    margin-left: 50px;
+    text-align: center;
+
+  }
+
+  .pic{
+    background: url("./pexels-photo-8157078.webp");
+    width: 100%;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0;
+    
+  }
+
+  .verh{
+    width: 100%;
+    height: 700px;
+  }
+
+   article{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;;
+    font: small;
+    vertical-align: middle;
+    text-align:left;
+    color: royalblue;
+    font-size: 16px;
+    text-indent: 5px;
+    line-height: 50px;
+    margin: 0 70px 70px;
+    
+    
+    
+  }
+
+  h2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    color: #04AA6D;
+  font-size: 22px;
+  line-height: 10px;
+
+  }
+
+  input{
+    height: 30px;
+    padding-left: 30px;
+    margin-left: 40px;
+    border-radius: 20px;
+   border-color:royalblue;
+    margin-top: 12px;
+    box-shadow:#04AA6D;
+    outline: #04AA6D;
+   
+  }
+
+  placeholder{
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    width: 100px;
+  }
+
+  h3{
+
+    margin-left: 60px;
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    padding-top: 90px;
+    font-size: 50px;
+    font-weight: 100;
+    
+  }
+
+  h4{
+    margin-left: 60px;
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    padding-top: 80px;
+    font-size: 25px;
+    font-weight: 100;
+  }
+
+  .btn{width: 200px;
+    height: 100px;
+  padding: 50px;
+  margin: 20px;
+  display:flexbox;
+  border-radius: 20px;
+  
+  }
+
+  :hover .btn{
+    color:#04AA6D
+  }
+
+ .inputs{
+
+padding: 180px;
+ }
+
+ .niz{
+width: 100%;
+height: 300px;
+background-color:royalblue;
+opacity: 1;
+
+
+ }
+
+ .niz p{
+text-align: center;
+font-size: 22px;
+font-family:Verdana, Geneva, Tahoma, sans-serif; 
+color: #ddd;
+padding: 150px;
+
+ }
+ 
